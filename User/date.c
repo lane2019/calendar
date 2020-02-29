@@ -97,7 +97,7 @@ void to_tm(u32 tim, struct rtc_time * tm)
 	hms = tim % SECDAY;
 
 	/* Hours, minutes, seconds are easy */
-	tm->tm_hour = hms / 3600;
+	tm->tm_hour= (hms / 3600) % 24;
 	tm->tm_min = (hms % 3600) / 60;
 	tm->tm_sec = (hms % 3600) % 60;
 

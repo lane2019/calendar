@@ -1,0 +1,15 @@
+..\output\calendar.o: ..\User\calendar.c
+..\output\calendar.o: ..\User\calendar.h
+..\output\calendar.o: ..\CMSIS\CM3\stm32f10x.h
+..\output\calendar.o: ..\CMSIS\CM3\core_cm3.h
+..\output\calendar.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\output\calendar.o: ..\CMSIS\CM3\system_stm32f10x.h
+..\output\calendar.o: ..\User\stm32f10x_conf.h
+..\output\calendar.o: ..\FWlib\inc\stm32f10x_bkp.h
+..\output\calendar.o: ..\CMSIS\CM3\stm32f10x.h
+..\output\calendar.o: ..\FWlib\inc\stm32f10x_gpio.h
+..\output\calendar.o: ..\FWlib\inc\stm32f10x_pwr.h
+..\output\calendar.o: ..\FWlib\inc\stm32f10x_rcc.h
+..\output\calendar.o: ..\FWlib\inc\stm32f10x_rtc.h
+..\output\calendar.o: ..\FWlib\inc\stm32f10x_usart.h
+..\output\calendar.o: ..\FWlib\inc\misc.h

@@ -1,0 +1,15 @@
+..\output\date.o: ..\User\date.c
+..\output\date.o: ..\User\date.h
+..\output\date.o: ..\CMSIS\CM3\stm32f10x.h
+..\output\date.o: ..\CMSIS\CM3\core_cm3.h
+..\output\date.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\output\date.o: ..\CMSIS\CM3\system_stm32f10x.h
+..\output\date.o: ..\User\stm32f10x_conf.h
+..\output\date.o: ..\FWlib\inc\stm32f10x_bkp.h
+..\output\date.o: ..\CMSIS\CM3\stm32f10x.h
+..\output\date.o: ..\FWlib\inc\stm32f10x_gpio.h
+..\output\date.o: ..\FWlib\inc\stm32f10x_pwr.h
+..\output\date.o: ..\FWlib\inc\stm32f10x_rcc.h
+..\output\date.o: ..\FWlib\inc\stm32f10x_rtc.h
+..\output\date.o: ..\FWlib\inc\stm32f10x_usart.h
+..\output\date.o: ..\FWlib\inc\misc.h
